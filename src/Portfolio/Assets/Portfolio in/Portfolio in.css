@@ -1,0 +1,18 @@
+
+.col-div-12{
+	padding: 35px;
+}
+.p-boxs{
+	width: 30%;
+    height: 240px;
+    /* padding: 20px; */
+	float: left;
+	box-shadow: 2px 2px 2px 2px #ddd;
+	margin-left: 20px;
+	position: cover;
+	margin-top: 20px;
+}
+.p-boxs img{
+    height:240px;
+	width: 100%;
+}

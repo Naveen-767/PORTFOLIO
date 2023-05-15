@@ -1,0 +1,146 @@
+.main {
+    width: 90%;
+    float: left;
+}
+
+.col-div-6 {
+    width: 50%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.head {
+    padding-left: 70px;
+    padding-top: 150px;
+    font-size: 80px;
+    color: red;
+}
+
+.para {
+    padding-left: 70px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    width: 500px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.bs {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 20px 10px;
+    background: red;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.read-m {
+    padding-left: 70px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+.shape-square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 17, 255);
+    top: 88%;
+    right: 15%;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    transition: all .0s ease-in-out;
+    animation: rotating 20s linear infinite;
+}
+.shape-square1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 8%;
+    right: 5%;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    transition: all .0s ease-in-out;
+    animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+    form {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.shape-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 12%;
+    left: 45%;
+    /* opacity: .6; */
+    transform: rotate(-60deg);
+    transition: all .0s;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid red;
+    animation: right-to-left 20s linear infinite;
+}
+
+.shape-triangle1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 12%;
+    left: 45%;
+    /* opacity: .6; */
+    transform: rotate(-60deg);
+    transition: all .0s;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid rgb(76, 0, 255);
+    animation: right-to-left 20s linear infinite;
+}
+@keyframes right-to-left {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: -100px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.slider-image {
+    position: absolute;
+    border-radius: 50%;
+    top: 75px;
+    margin-bottom: -80px;
+
+
+}
+
+.slider-image img {
+    width: 60%;
+    border-radius: 50%;
+    position: cover;
+
+}
+
+.section-1{
+	animation: slide 1s linear 0s 1 forwards;
+}

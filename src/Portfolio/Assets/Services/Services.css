@@ -1,0 +1,141 @@
+
+.about-ps{
+    padding-top: 20px;
+    font-size: 40px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #ff042c;
+	margin-bottom: 20px;
+}
+.about-ps1{
+	font-size: 56px;
+	margin-bottom: -46px;
+	color: #ebe6e6;
+}
+.about-p2{
+	line-height: 27px;
+	letter-spacing: 0.6;
+	color: #f1a1a1;
+	width: 505px;
+}
+.content-1{
+	padding: 0px 70px;
+}
+.progress-p{
+	margin: 15px 0px;
+	font-weight: 600;
+	color: #f0e9e9;
+}
+.progress-p span{
+	float: right;
+}
+#progress{
+	background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+}
+#progress:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 50%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress1{
+	background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+}
+#progress1:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 90%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress2{
+	background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+}
+#progress2:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 95%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress3 {
+	background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+}
+#progress3:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 90%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress4{
+    background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+
+}
+#progress4:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 90%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress5{
+    background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+
+}
+
+#progress5:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 70%;
+	height: 100%;
+	border-radius: 9px;
+}
+#progress6{
+    background: #e8e2e2;
+	border-radius: 13px;
+	height: 15px;
+	width: 100%;
+
+}
+#progress6:after{
+	content: '';
+	display: block;
+	background: #ff042c;
+	width: 70%;
+	height: 100%;
+	border-radius: 9px;
+}
+.user-img{
+	width: 100%;
+	margin-top: 15%;
+    background: yellow;
+}
+.col-div-12{
+	padding: 25px;
+}
